@@ -1,0 +1,26 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+.container{
+  border: 1px red;
+  width: 75%;
+  margin: 20px auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.flex-box-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border: 2px solid blue;
+  
+}
+.flex-box-container img{
+  border: 1px solid green;
+  margin: 15px;
+  padding: 10px;
+  justify-content: space-around;
+  height: 250px;
+  width: 250px;
+}
